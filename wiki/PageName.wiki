@@ -19,6 +19,6 @@ Add your content here.  Format your content with:
   # Ensure the target salesforce org has been set up to use Single Sign on
   # Enable "Is Single Sign-On Enabled" option on a profile 
   # Associate the new user with "Is Single Sign-On Enabled" profile 
-  # Set Delegated Gateway URL to "https://<your_google_app>.appspot.com/auth" (Setup - Administration Setup - Security Controls - Single Sign-On Setting) 
-  # Login into "https://<your_google_app>.appspot.com" 
+  # Set Delegated Gateway URL to "https://_your_google_app_.appspot.com/auth" (Setup - Administration Setup - Security Controls - Single Sign-On Setting) 
+  # Login into "https://_your_google_app_.appspot.com" 
   # Test it is working by clicking "Login to Salesforce" link 
