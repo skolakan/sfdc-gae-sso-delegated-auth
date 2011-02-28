@@ -53,7 +53,7 @@ public class Login extends HttpServlet
 		resp.getWriter().println("<body>");
 		resp.getWriter().println("<p>Logging into salesforce<p>");
 		resp.getWriter().println("<form name=\"form1\" action=\"" + salesforceLoginURL + "\" method=\"post\">");
-		resp.getWriter().println("     <input type='hidden' name=\"un\" value=\"" + userService.getCurrentUser().getEmail() + ".sso\">");
+		resp.getWriter().println("     <input type='hidden' name=\"un\" value=\"" + userService.getCurrentUser().getEmail() + "\">");
 		resp.getWriter().println("     <input type='hidden' name=\"pw\" value=\"" + token + "\">");
 		resp.getWriter().println("     <input type='hidden' name=\"loginURL\" value=\"https://mark-sivill-sfdc.appspot.com/?salesforceloginurl=" + URLEncoder.encode(salesforceLoginURL,"UTF-8") + "\">");
 		resp.getWriter().println("</form>");
