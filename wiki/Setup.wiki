@@ -15,19 +15,23 @@ Add your content here.  Format your content with:
 
 == Prerequisites ==
 
-# Google App Engine account
-# Google user name
-# Salesforce org with
-# Administrator and non Administrator user access
-# "Single Sign On" enable (may need to call salesforce support to do this)
+  * Google App Engine account
+  * Google user name
+  * Salesforce org with
+   * Administrator user access (to set up single sign on)
+   * Non-administrator user access (to test single sign on)
+   * "Single Sign On" enabled (may need to call salesforce support to do this)
+  * Eclipse with the Google App Engine plug-in installed
 
 == Google App Engine set up ==
 
+  # Install the code from this project into an Google App Engine Eclipse project
+  # Upload project into the Google App Engine
+
 == salesforce.com set up ==
 
-  # Ensure the target salesforce org has been set up to use Single Sign on
   # Enable "Is Single Sign-On Enabled" option on a profile 
-  # Associate the new user with "Is Single Sign-On Enabled" profile 
+  # Associate a new Non-administrator user with "Is Single Sign-On Enabled" profile. The salesforce user name for this user will be the same as the Google user name for example xxx@gmail.com
   # Set Delegated Gateway URL to "https://your_google_app_name.appspot.com/auth" (Setup - Administration Setup - Security Controls - Single Sign-On Setting). Where your_google_app_name is the Google App Engine application you have created.
-  # Login into "https://your_google_app_name.appspot.com". Where your_google_app_name is the Google App Engine application you have created.
-  # Test it is working by clicking "Login to Salesforce" link 
+  # Login into "https://your_google_app_name.appspot.com" with Google user name. Where your_google_app_name is the Google App Engine application you have created.
+  # Test it is working by clicking "Login to Salesforce" link on the Google App Engine page
