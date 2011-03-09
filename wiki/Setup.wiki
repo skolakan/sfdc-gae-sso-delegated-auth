@@ -1,0 +1,33 @@
+#Setup
+
+= Introduction =
+
+WORK IN PROGRESS
+
+Add your content here.
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+
+== Prerequisites ==
+
+# Google App Engine account
+# Google user name
+# Salesforce org with
+# Administrator and non Administrator user access
+# "Single Sign On" enable (may need to call salesforce support to do this)
+
+== Google App Engine set up ==
+
+== salesforce.com set up ==
+
+  # Ensure the target salesforce org has been set up to use Single Sign on
+  # Enable "Is Single Sign-On Enabled" option on a profile 
+  # Associate the new user with "Is Single Sign-On Enabled" profile 
+  # Set Delegated Gateway URL to "https://your_google_app_name.appspot.com/auth" (Setup - Administration Setup - Security Controls - Single Sign-On Setting). Where your_google_app_name is the Google App Engine application you have created.
+  # Login into "https://your_google_app_name.appspot.com". Where your_google_app_name is the Google App Engine application you have created.
+  # Test it is working by clicking "Login to Salesforce" link 
