@@ -1,17 +1,6 @@
-#Setup
-
-= Introduction =
+= Setup =
 
 WORK IN PROGRESS
-
-Add your content here.
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
 
 == Prerequisites ==
 
@@ -26,12 +15,22 @@ Add your content here.  Format your content with:
 == Google App Engine set up ==
 
   # Install the code from this project into an Google App Engine Eclipse project
+  # Change _secretKeyword_ String in Token.java to be your secret Keyword. For example this could be a random set of characters.
   # Upload project into the Google App Engine
 
 == salesforce.com set up ==
 
   # Enable "Is Single Sign-On Enabled" option on a profile 
   # Associate a new Non-administrator user with "Is Single Sign-On Enabled" profile. The salesforce user name for this user will be the same as the Google user name for example xxx@gmail.com
-  # Set Delegated Gateway URL to "https://your_google_app_name.appspot.com/auth" (Setup - Administration Setup - Security Controls - Single Sign-On Setting). Where your_google_app_name is the Google App Engine application you have created.
-  # Login into "https://your_google_app_name.appspot.com" with Google user name. Where your_google_app_name is the Google App Engine application you have created.
+  # Set Delegated Gateway URL to "https://your_google_app_name.appspot.com/authority" (Setup - Administration Setup - Security Controls - Single Sign-On Setting). Where *your_google_app_name* is the Google App Engine application you have created.
+  # Login into "https://your_google_app_name.appspot.com" with Google user name. Where *your_google_app_name* is the Google App Engine application you have created.
   # Test it is working by clicking "Login to Salesforce" link on the Google App Engine page
+
+=== salesforce.com Portal Login ==
+
+The default setup is to login into salesforce via the main application as opposed to going via one of the salesforce portals. To login into the salesforce portal the url needs a parameter passed into 
+
+  # Login into "https://your_google_app_name.appspot/?salesforceloginurl=" plus url encoded portal login address i.e. "https://your_google_app_name.appspot.com/?salesforceloginurl=https%3a%2f%2fna1.salesforce.com%2fsecur%2flogin_portal.jsp%3forgId%3dyour_orgId%26portalId%3dyour_portalId". Where *your_google_app_name* is the Google App Engine application you have created. Where *your_orgId* is your salesforce org id and *your_portalId* is your portalID
+   * URL for logining into portal can be found in salesforce
+   * URL encoding of portal login url could be done at "http://www.opinionatedgeek.com/dotnet/tools/urlencode/Encode.aspx" for example
+  # Test it is working by clicking "Login to Salesforce" link
