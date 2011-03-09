@@ -13,8 +13,18 @@
 == Google App Engine set up ==
 
   # Install the code from this project into an Google App Engine Eclipse project
+   # Create a new project from "Checkout Projects from SVN"
+   # Select read only SVN project
+   # Then "Check out as a project configured using the New Project Wizard"
+   # Select Google "Web Application Project"
+   # For package choose "com.sfdc"
+   # De-select "Use Google Web Toolkit"
+   # Due to SVN project configuration(on my part) not all files are correctly set up for project so -
+    # Copy appengine-web.xml in war/WEB-INF from another Google "Web Application Project" into new project and change the application id
+    # Copy lib directory in war/WEB-INF from another Google "Web Application Project" into new project
   # Change _secretKeyword_ String in Token.java to be your secret Keyword. For example this could be a random set of characters.
   # Upload project into the Google App Engine
+  # Test it is working by logging into "https://your_google_app_name.appspot.com" with Google user name. Where *your_google_app_name* is the Google App Engine application you have created.
 
 == salesforce.com set up ==
 
