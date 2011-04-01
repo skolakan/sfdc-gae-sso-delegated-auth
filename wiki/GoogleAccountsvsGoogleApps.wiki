@@ -1,0 +1,14 @@
+#labels GoogleApps,GoogleAppsForyourDomain
+# Google Accounts versus Google Apps for your domain for Single Sigon On to salesforce
+
+= Google Accounts versus Google Apps for your domain =
+
+*Salesforce Single Sign On with Delegated Authentication using Google App Engine* was built and tested against a _Google Accounts_ not _Google Apps for your domain_
+
+It does not mean it wouldn't necessarily work it just not been tested or configured due to lack of access to Google Apps.
+
+= Details =
+
+Instructions on how to assign a Google App Engine application to Google Apps for your domain can be found 
+
+[http://code.google.com/appengine/articles/domains.html Deploying your Application on your Google Apps URL]
