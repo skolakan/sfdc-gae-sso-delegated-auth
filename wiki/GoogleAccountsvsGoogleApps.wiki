@@ -13,7 +13,7 @@ While this has not been tested, the following links provide starting points to t
 
 [http://code.google.com/appengine/articles/domains.html Configuring Your App's Authentication] to use Google Apps
 
-You will also need to make the */authority* url callable from a  accessible public URL in order for salesforce to pass the token back for authentication. [http://wiki.developerforce.com/index.php/How_to_Implement_Single_Sign-On_with_Force.com How to Implement Single Sign-On with Force.com] provides a good overview of the interactions that take place between salesforce and the delegated authentication authority (in this case the Google App Engine application). 
+You will also need to make the */authority* url callable from the public internet in order for salesforce to pass the token back for authentication. [http://wiki.developerforce.com/index.php/How_to_Implement_Single_Sign-On_with_Force.com How to Implement Single Sign-On with Force.com] provides a good overview of the interactions that take place between salesforce and the delegated authentication authority (in this case the Google App Engine application). 
 
 
 Please let me know if you have had success setting this up and any additional pointers on how it was done.
