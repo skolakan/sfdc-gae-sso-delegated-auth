@@ -3,7 +3,7 @@
 
 *Salesforce Single Sign On with Delegated Authentication using Google App Engine* was built and tested against a *Google Accounts* not *Google Apps for your domain*
 
-It might work against Google Apps for your domain it just not been tested or configured due to lack of access to Google Apps.
+It might work against Google Apps for your domain it just not been tested or configured due to lack of access to Google Apps for your domain.
 
 == Deploying Google App Engine application to Google Apps for your domain ==
 
