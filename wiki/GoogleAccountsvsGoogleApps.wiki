@@ -5,8 +5,8 @@
 
 It might work against Google Apps for your domain it just not been tested or configured due to lack of access to Google Apps.
 
-= Useful links to deploy Google App Engine application to Google Apps for yuor domain =
-
-Instructions on how to assign a Google App Engine application to Google Apps for your domain can be found 
+== Useful links to deploy Google App Engine application to Google Apps for yuor domain ==
 
 [http://code.google.com/appengine/articles/domains.html Deploying your Application on your Google Apps URL]
+
+[http://code.google.com/appengine/articles/domains.html Configuring Your App's Authentication] to use Google Apps
