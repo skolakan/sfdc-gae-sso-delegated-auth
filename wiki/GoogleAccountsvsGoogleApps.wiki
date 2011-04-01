@@ -1,11 +1,9 @@
 #labels GoogleApps,GoogleAppsForyourDomain
-# Google Accounts versus Google Apps for your domain for Single Sigon On to salesforce
-
 = Google Accounts versus Google Apps for your domain =
 
-*Salesforce Single Sign On with Delegated Authentication using Google App Engine* was built and tested against a _Google Accounts_ not _Google Apps for your domain_
+*Salesforce Single Sign On with Delegated Authentication using Google App Engine* was built and tested against a *Google Accounts* not *Google Apps for your domain*
 
-It does not mean it wouldn't necessarily work it just not been tested or configured due to lack of access to Google Apps.
+It might work against Google Apps for your domain it just not been tested or configured due to lack of access to Google Apps.
 
 = Details =
 
