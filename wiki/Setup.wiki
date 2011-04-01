@@ -1,5 +1,6 @@
 = Setup =
 
+These setup instructions are for Single Sign on with Google Account.
 [GoogleAccountsvsGoogleApps Google Accounts vs Google Apps for your domain]
 
 == Prerequisites ==
