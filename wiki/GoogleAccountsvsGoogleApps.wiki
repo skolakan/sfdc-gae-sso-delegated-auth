@@ -7,7 +7,7 @@ It might work against Google Apps for your domain it just not been tested or con
 
 == Deploying Google App Engine application to Google Apps for your domain ==
 
-While this has not been tested, the following links provides starting points to try to get this working with Google Apps for your domain.
+While this has not been tested, the following links provide starting points to try to get this working with Google Apps for your domain.
 
 [http://code.google.com/appengine/articles/domains.html Deploying your Application on your Google Apps URL]
 
