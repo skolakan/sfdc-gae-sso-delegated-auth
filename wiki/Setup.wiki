@@ -1,5 +1,7 @@
 = Setup =
 
+[GoogleAccountsvsGoogleApps Google Accounts vs Google Apps for your domain]
+
 == Prerequisites ==
 
   * Google App Engine account
