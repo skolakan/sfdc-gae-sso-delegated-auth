@@ -5,7 +5,7 @@
 
 It might work against Google Apps for your domain it just not been tested or configured due to lack of access to Google Apps.
 
-= Details =
+= Useful links to deploy Google App Engine application to Google Apps for yuor domain =
 
 Instructions on how to assign a Google App Engine application to Google Apps for your domain can be found 
 
