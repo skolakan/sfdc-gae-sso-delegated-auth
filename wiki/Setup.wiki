@@ -10,7 +10,7 @@ These setup instructions are for Single Sign on with Google Accounts. If you are
   * Salesforce org with
    * Administrator user access (to set up single sign on)
    * Non-administrator user access (to test single sign on)
-   * "Single Sign On" enabled (may need to call salesforce support to do this)
+   * "Single Sign On" enabled (may need to call salesforce support to do this - [https://login.salesforce.com/help/doc/en/sso_delauthentication_configuring.htm Salesforce Documentation for Delegated Authenication])
   * Eclipse with the Google App Engine plug-in installed
 
 == Google App Engine set up ==
