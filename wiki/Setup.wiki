@@ -27,7 +27,7 @@ These setup instructions are for Single Sign on with Google Accounts. If you are
     # Copy lib directory in war/WEB-INF from another Google "Web Application Project" into new project
   # Change _secretKeyword_ String in Token.java to be your secret Keyword. For example this could be a random set of characters.
   # Upload project into the Google App Engine
-  # Test it is working by logging into "https://your_google_app_name.appspot.com" with Google user name. Where *your_google_app_name* is the Google App Engine application you have created.
+  # Test it is working by logging into "https://your_google_app_name.appspot.com/home" with Google user name. Where *your_google_app_name* is the Google App Engine application you have created.
 
 == salesforce.com set up ==
 
