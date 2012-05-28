@@ -34,7 +34,7 @@ These setup instructions are for Single Sign on with Google Accounts. If you are
   # Enable "Is Single Sign-On Enabled" option on a profile 
   # Associate a new Non-administrator user with "Is Single Sign-On Enabled" profile. The salesforce user name for this user will be the same as the Google user name for example xxx@gmail.com
   # Set Delegated Gateway URL to "https://your_google_app_name.appspot.com/authority" (Setup - Administration Setup - Security Controls - Single Sign-On Setting). Where *your_google_app_name* is the Google App Engine application you have created.
-  # Login into "https://your_google_app_name.appspot.com" with Google user name. Where *your_google_app_name* is the Google App Engine application you have created.
+  # Login into "https://your_google_app_name.appspot.com/home" with Google user name. Where *your_google_app_name* is the Google App Engine application you have created.
   # Test it is working by clicking "Login to Salesforce" link on the Google App Engine page
 
 === salesforce.com Portal Login ==
